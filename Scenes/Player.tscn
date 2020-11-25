@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scripts/Player.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Player/Sprites/Player_Speed.png" type="Texture" id=2]
+[ext_resource path="res://Scenes/Balle.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/ShootSound.tscn" type="PackedScene" id=4]
+
+[node name="Player" type="KinematicBody2D"]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource( 1 )
+balle = ExtResource( 3 )
+audiomachine = ExtResource( 4 )
+
+[node name="Sprite" type="Sprite" parent="."]
+rotation = 1.5708
+scale = Vector2( 0.227114, 0.201414 )
+z_as_relative = false
+texture = ExtResource( 2 )
+
+[node name="Canon" type="Position2D" parent="."]
+position = Vector2( 64, 0 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+scale = Vector2( 4.32591, 3.48773 )
+polygon = PoolVector2Array( -8.52404, -7.94619, -1.46554, -8.04187, 9.99006, -0.100343, -0.886973, 7.9847, -8.36976, 7.84118, -4.89836, 4.97075, -8.90975, -0.052502, -5.09122, -4.45383 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
