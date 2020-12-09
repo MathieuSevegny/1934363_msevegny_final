@@ -1,0 +1,41 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Assets/Enemies/Bullets/Fire/fire 4.png" type="Texture" id=1]
+[ext_resource path="res://Assets/Enemies/Bullets/Fire/fire 0.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Enemies/Bullets/Fire/fire 1.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Enemies/Bullets/Enemy_Missile.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Enemies/Bullets/Fire/fire 3.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Enemies/Bullets/Fire/fire 2.png" type="Texture" id=6]
+[ext_resource path="res://Scripts/MissilesEnnemis.gd" type="Script" id=7]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 13.25
+height = 38.5
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 6 ), ExtResource( 5 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="MissilesEnnemis" type="KinematicBody2D"]
+collision_layer = 0
+collision_mask = 21
+script = ExtResource( 7 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -0.572533, 57.4609 )
+scale = Vector2( 0.119923, 0.117199 )
+frames = SubResource( 2 )
+frame = 1
+playing = true
+flip_v = true
+
+[node name="Enemy_Missile" type="Sprite" parent="."]
+position = Vector2( 0.25, -1 )
+texture = ExtResource( 4 )

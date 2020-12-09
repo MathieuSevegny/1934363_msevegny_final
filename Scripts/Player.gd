@@ -2,27 +2,30 @@ extends KinematicBody2D
 
 var vitesse = 200
 var velocite = Vector2()
+onready var canon = $Model/Canon
+export (PackedScene) var balle
+export (PackedScene) var audiomachine
 var dead = false
 export var nb_vie = 100
-export (PackedScene) var balle
-onready var canon = $Canon
-export (PackedScene) var audiomachine
+var rotate
+var maxshootdelay = 0.50
+var shootdelay
 
 
 func _ready():
-	pass
+	shootdelay = maxshootdelay
 
 func _physics_process(delta):
 	get_input()
+	var shoot = Input.is_action_just_pressed("shoot")
 	var dir = get_global_mouse_position() - global_position
 	if dir.length() > 5:
-		rotation = dir.angle()
-		
+		rotate = dir.angle()
+		$CollisionPolygon2D.rotation = rotate
 		var collision = move_and_collide(velocite * delta)
 		if collision:
-			if "Asteroid" in collision.collider.name:
-				collision.collider.destroy()
-				#kill()
+			if "Enemy" in collision.collider.name:
+				touche_missile()
 			
 	if nb_vie < 1:
 		dead = true
@@ -43,13 +46,20 @@ func _physics_process(delta):
 		velocite.y = 0
 	else:
 		velocite.y -= ysign * (100 * delta)
-	
+	if shootdelay < 0:
+		if shoot:
+			shoot()
+			var b = balle.instance()
+			b.creer(canon.global_position, rotate)
+			get_parent().add_child(b)
+	else:
+		shootdelay -= 1.0 * delta
 func get_input():
 	var avance = Input.is_action_pressed("move_up")
 	var recule = Input.is_action_pressed("move_down")
 	var gauche = Input.is_action_pressed("move_left")
 	var droite = Input.is_action_pressed("move_right")
-	var shoot = Input.is_action_just_pressed("shoot")
+	
 	var x = 0
 	var y = 0
 	
@@ -68,11 +78,7 @@ func get_input():
 	if x != 0 || y!= 0:
 		velocite = Vector2(x,y)
 		move_and_collide(velocite/1000)
-	if shoot:
-		shoot()
-		var b = balle.instance()
-		b.creer(canon.global_position, rotation)
-		get_parent().add_child(b)
+		
 func touche_missile():
 	nb_vie -= 10
 	if nb_vie <= 0:
@@ -83,12 +89,13 @@ func touche_balle():
 	if nb_vie <= 0:
 		dead = true
 
-
 func shoot():
-	touche_balle()
+	shootdelay = maxshootdelay
 	var son = audiomachine.instance()
 	var bruit = load("res://Assets/Sounds/shoot.wav") 
 	son.stream = bruit
 
 	get_parent().add_child(son)
+
+
 

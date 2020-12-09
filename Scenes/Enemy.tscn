@@ -1,0 +1,62 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Assets/Enemies/Sprites/Enemy_1_Neon.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/Enemy.gd" type="Script" id=2]
+[ext_resource path="res://Assets/Enemies/Sprites/Enemy_3_Neon.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Enemies/Sprites/Enemy_2_Neon.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/SoundMachine.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scenes/MissilesEnnemis.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scenes/BallesEnnemies.tscn" type="PackedScene" id=7]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 500.0
+
+[node name="Enemy" type="KinematicBody2D"]
+collision_layer = 2147483650
+collision_mask = 20
+script = ExtResource( 2 )
+balle = ExtResource( 7 )
+missile = ExtResource( 6 )
+audiomachine = ExtResource( 5 )
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 0, -0.297302 )
+shape = SubResource( 1 )
+
+[node name="Sprite1" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 1 )
+
+[node name="Coll1" type="CollisionPolygon2D" parent="."]
+visible = false
+polygon = PoolVector2Array( 0.0918884, -24.482, -7.22313, -11.2678, -8.25, -4, -23.505, 10.6773, -12, 10.5, -4.15555, 20.8239, 4.5, 20.75, 11.1824, 10.4413, 23.5, 11, 9.53064, -3.95277, 7.87886, -11.2678 )
+disabled = true
+
+[node name="Sprite2" type="Sprite" parent="."]
+visible = false
+rotation = 3.14159
+texture = ExtResource( 4 )
+
+[node name="Coll2" type="CollisionPolygon2D" parent="."]
+visible = false
+polygon = PoolVector2Array( -14.174, -46.812, -13.229, -7.75446, 0.000152588, -19.0937, 12.5994, -8.06944, 12.9143, -46.182, 50.082, 46.4222, 15.7492, 10.5144, 0.000152588, 36.6578, -16.3788, 10.1994, -48.1918, 45.4772 )
+disabled = true
+
+[node name="Sprite3" type="Sprite" parent="."]
+visible = false
+rotation = 3.14159
+texture = ExtResource( 3 )
+
+[node name="Coll3" type="CollisionPolygon2D" parent="."]
+visible = false
+polygon = PoolVector2Array( -47.6021, -62.1124, -30.2782, -55.1828, -29.9633, -26.8346, -14.8442, -12.3455, -13.5843, -0.376244, -0.355103, -22.1099, 11.9291, -3.21107, 14.449, -10.7706, 28.6231, -24.9447, 29.253, -54.8678, 46.262, -62.4274, 60.4361, 47.8157, 33.0328, 61.3599, 17.2838, 61.6749, 13.189, 57.5801, -9.80452, 57.2651, -17.994, 61.0449, -34.058, 61.6749, -60.5163, 50.0206 )
+disabled = true
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Canon" type="Position2D" parent="."]
+position = Vector2( 0, -45 )
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_Area2D_body_exited"]

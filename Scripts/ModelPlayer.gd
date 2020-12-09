@@ -13,7 +13,6 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if !$Player.dead :
-		$Contour/VieContainer/Vie.rect_size.x = 40 * (float($Player.nb_vie) / 100)
-	else:
-		queue_free()
+	var dir = get_global_mouse_position() - global_position
+	if dir.length() > 5:
+		rotation = dir.angle()

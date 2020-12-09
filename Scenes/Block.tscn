@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/Murs&Portes/GridTile.png" type="Texture" id=1]
+
+[node name="Block" type="StaticBody2D"]
+collision_layer = 16
+collision_mask = 16
+
+[node name="GridTile" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+centered = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -0.125, -0.25, 39.75, 0.125, 40, 40, -0.25, 40.125 )

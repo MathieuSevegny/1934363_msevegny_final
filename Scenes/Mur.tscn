@@ -1,0 +1,987 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/Murs&Portes/GridTile.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 911.039, 22.3264 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 855.234, 752.888 )
+
+[node name="Mur" type="StaticBody2D"]
+collision_layer = 4
+collision_mask = 4
+
+[node name="Contour" type="Node2D" parent="."]
+
+[node name="GridTile61" type="Sprite" parent="Contour"]
+position = Vector2( 0, 40 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile62" type="Sprite" parent="Contour"]
+position = Vector2( 0, 80 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile63" type="Sprite" parent="Contour"]
+position = Vector2( 0, 120 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile64" type="Sprite" parent="Contour"]
+position = Vector2( 0, 160 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile65" type="Sprite" parent="Contour"]
+position = Vector2( 0, 200 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile66" type="Sprite" parent="Contour"]
+position = Vector2( 0, 240 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile67" type="Sprite" parent="Contour"]
+position = Vector2( 0, 280 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile68" type="Sprite" parent="Contour"]
+position = Vector2( 0, 320 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile69" type="Sprite" parent="Contour"]
+position = Vector2( 0, 360 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile70" type="Sprite" parent="Contour"]
+position = Vector2( 0, 400 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile71" type="Sprite" parent="Contour"]
+position = Vector2( 0, 440 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile72" type="Sprite" parent="Contour"]
+position = Vector2( 0, 480 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile73" type="Sprite" parent="Contour"]
+position = Vector2( 0, 520 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile74" type="Sprite" parent="Contour"]
+position = Vector2( 0, 560 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile75" type="Sprite" parent="Contour"]
+position = Vector2( 0, 600 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile76" type="Sprite" parent="Contour"]
+position = Vector2( 0, 640 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile77" type="Sprite" parent="Contour"]
+position = Vector2( 0, 680 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile78" type="Sprite" parent="Contour"]
+position = Vector2( 0, 720 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile79" type="Sprite" parent="Contour"]
+position = Vector2( 0, 760 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile80" type="Sprite" parent="Contour"]
+position = Vector2( 0, 800 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile81" type="Sprite" parent="Contour"]
+position = Vector2( 0, 840 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile82" type="Sprite" parent="Contour"]
+position = Vector2( 0, 880 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile83" type="Sprite" parent="Contour"]
+position = Vector2( 0, 920 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile31" type="Sprite" parent="Contour"]
+position = Vector2( 0, 960 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile32" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1000 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile84" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1040 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile85" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1080 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile86" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1120 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile87" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1160 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile88" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1200 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile89" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1240 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile90" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1280 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile91" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1320 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile92" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1360 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile93" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1400 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile94" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1440 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile95" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1480 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile96" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1520 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile97" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1560 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile98" type="Sprite" parent="Contour"]
+position = Vector2( 0, 1600 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile33" type="Sprite" parent="Contour"]
+position = Vector2( 40, 1600 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile34" type="Sprite" parent="Contour"]
+position = Vector2( 80, 1600 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile35" type="Sprite" parent="Contour"]
+position = Vector2( 120, 1600 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile36" type="Sprite" parent="Contour"]
+position = Vector2( 385.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile37" type="Sprite" parent="Contour"]
+position = Vector2( 385.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile38" type="Sprite" parent="Contour"]
+position = Vector2( 385.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile39" type="Sprite" parent="Contour"]
+position = Vector2( 385.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile40" type="Sprite" parent="Contour"]
+position = Vector2( 385.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile41" type="Sprite" parent="Contour"]
+position = Vector2( 585.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile42" type="Sprite" parent="Contour"]
+position = Vector2( 585.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile43" type="Sprite" parent="Contour"]
+position = Vector2( 585.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile44" type="Sprite" parent="Contour"]
+position = Vector2( 585.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile45" type="Sprite" parent="Contour"]
+position = Vector2( 585.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile46" type="Sprite" parent="Contour"]
+position = Vector2( 785.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile47" type="Sprite" parent="Contour"]
+position = Vector2( 785.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile48" type="Sprite" parent="Contour"]
+position = Vector2( 785.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile49" type="Sprite" parent="Contour"]
+position = Vector2( 680, 1600 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile50" type="Sprite" parent="Contour"]
+position = Vector2( 945.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile51" type="Sprite" parent="Contour"]
+position = Vector2( 945.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile52" type="Sprite" parent="Contour"]
+position = Vector2( 945.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile53" type="Sprite" parent="Contour"]
+position = Vector2( 945.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile54" type="Sprite" parent="Contour"]
+position = Vector2( 945.825, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile55" type="Sprite" parent="Contour"]
+position = Vector2( 1145.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile56" type="Sprite" parent="Contour"]
+position = Vector2( 1145.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile57" type="Sprite" parent="Contour"]
+position = Vector2( 1145.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile58" type="Sprite" parent="Contour"]
+position = Vector2( 1145.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile59" type="Sprite" parent="Contour"]
+position = Vector2( 1145.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile60" type="Sprite" parent="Contour"]
+position = Vector2( 1345.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile111" type="Sprite" parent="Contour"]
+position = Vector2( 1265.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile112" type="Sprite" parent="Contour"]
+position = Vector2( 1265.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile113" type="Sprite" parent="Contour"]
+position = Vector2( 1465.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile114" type="Sprite" parent="Contour"]
+position = Vector2( 1465.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile115" type="Sprite" parent="Contour"]
+position = Vector2( 1465.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile116" type="Sprite" parent="Contour"]
+position = Vector2( 1465.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile117" type="Sprite" parent="Contour"]
+position = Vector2( 1465.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile118" type="Sprite" parent="Contour"]
+position = Vector2( 1665.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile119" type="Sprite" parent="Contour"]
+position = Vector2( 1665.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile120" type="Sprite" parent="Contour"]
+position = Vector2( 1665.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile121" type="Sprite" parent="Contour"]
+position = Vector2( 1665.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile122" type="Sprite" parent="Contour"]
+position = Vector2( 1665.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile123" type="Sprite" parent="Contour"]
+position = Vector2( 1865.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile124" type="Sprite" parent="Contour"]
+position = Vector2( 1865.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile125" type="Sprite" parent="Contour"]
+position = Vector2( 1865.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile126" type="Sprite" parent="Contour"]
+position = Vector2( 1865.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile127" type="Sprite" parent="Contour"]
+position = Vector2( 1865.82, 1702.24 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile99" type="Sprite" parent="Contour"]
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile100" type="Sprite" parent="Contour"]
+position = Vector2( 40, 0 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile101" type="Sprite" parent="Contour"]
+position = Vector2( 80, 0 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile102" type="Sprite" parent="Contour"]
+position = Vector2( 120, 0 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile103" type="Sprite" parent="Contour"]
+position = Vector2( 385.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile104" type="Sprite" parent="Contour"]
+position = Vector2( 385.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile105" type="Sprite" parent="Contour"]
+position = Vector2( 385.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile106" type="Sprite" parent="Contour"]
+position = Vector2( 385.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile107" type="Sprite" parent="Contour"]
+position = Vector2( 385.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile108" type="Sprite" parent="Contour"]
+position = Vector2( 585.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile109" type="Sprite" parent="Contour"]
+position = Vector2( 585.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile110" type="Sprite" parent="Contour"]
+position = Vector2( 585.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile128" type="Sprite" parent="Contour"]
+position = Vector2( 585.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile129" type="Sprite" parent="Contour"]
+position = Vector2( 585.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile130" type="Sprite" parent="Contour"]
+position = Vector2( 785.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile131" type="Sprite" parent="Contour"]
+position = Vector2( 785.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile132" type="Sprite" parent="Contour"]
+position = Vector2( 785.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile133" type="Sprite" parent="Contour"]
+position = Vector2( 680, 0 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile134" type="Sprite" parent="Contour"]
+position = Vector2( 945.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile135" type="Sprite" parent="Contour"]
+position = Vector2( 945.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile136" type="Sprite" parent="Contour"]
+position = Vector2( 945.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile137" type="Sprite" parent="Contour"]
+position = Vector2( 945.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile138" type="Sprite" parent="Contour"]
+position = Vector2( 945.825, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile139" type="Sprite" parent="Contour"]
+position = Vector2( 1145.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile140" type="Sprite" parent="Contour"]
+position = Vector2( 1145.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile141" type="Sprite" parent="Contour"]
+position = Vector2( 1145.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile142" type="Sprite" parent="Contour"]
+position = Vector2( 1145.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile143" type="Sprite" parent="Contour"]
+position = Vector2( 1145.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile144" type="Sprite" parent="Contour"]
+position = Vector2( 1345.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile145" type="Sprite" parent="Contour"]
+position = Vector2( 1265.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile146" type="Sprite" parent="Contour"]
+position = Vector2( 1265.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile147" type="Sprite" parent="Contour"]
+position = Vector2( 1465.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile148" type="Sprite" parent="Contour"]
+position = Vector2( 1465.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile149" type="Sprite" parent="Contour"]
+position = Vector2( 1465.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile150" type="Sprite" parent="Contour"]
+position = Vector2( 1465.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile151" type="Sprite" parent="Contour"]
+position = Vector2( 1465.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile152" type="Sprite" parent="Contour"]
+position = Vector2( 1665.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile153" type="Sprite" parent="Contour"]
+position = Vector2( 1665.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile154" type="Sprite" parent="Contour"]
+position = Vector2( 1665.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile155" type="Sprite" parent="Contour"]
+position = Vector2( 1665.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile156" type="Sprite" parent="Contour"]
+position = Vector2( 1665.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile157" type="Sprite" parent="Contour"]
+position = Vector2( 1865.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -225.825, -102.243 )
+
+[node name="GridTile158" type="Sprite" parent="Contour"]
+position = Vector2( 1865.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -185.825, -102.243 )
+
+[node name="GridTile159" type="Sprite" parent="Contour"]
+position = Vector2( 1865.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -145.825, -102.243 )
+
+[node name="GridTile160" type="Sprite" parent="Contour"]
+position = Vector2( 1865.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -105.825, -102.243 )
+
+[node name="GridTile161" type="Sprite" parent="Contour"]
+position = Vector2( 1865.82, 102.243 )
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( -65.8249, -102.243 )
+
+[node name="GridTile162" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 40.0001 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile163" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 80.0001 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile164" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 120 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile165" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 160 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile166" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 200 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile167" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 240 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile168" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 280 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile169" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 320 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile170" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 360 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile171" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 400 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile172" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 440 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile173" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 480 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile174" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 520 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile175" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 560 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile176" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 600 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile177" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 640 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile178" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 680 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile179" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 720 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile180" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 760 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile181" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 800 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile182" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 840 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile183" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 880 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile184" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 920 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile185" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 960 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile186" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1000 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile187" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1040 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile188" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1080 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile189" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1120 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile190" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1160 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile191" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1200 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile192" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1240 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile193" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1280 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile194" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1320 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile195" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1360 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile196" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1400 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile197" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1440 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile198" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1480 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile199" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1520 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="GridTile200" type="Sprite" parent="Contour"]
+position = Vector2( 1800, 1560 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 919.995, 19.478 )
+shape = SubResource( 1 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2( 11.3137, 815.348 )
+rotation = -1.57079
+shape = SubResource( 1 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+position = Vector2( 1816.61, 825.58 )
+rotation = 1.57079
+shape = SubResource( 1 )
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
+position = Vector2( 919.995, 1623.2 )
+shape = SubResource( 1 )
+
+[node name="SpawnZone" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 0
+
+[node name="SpawnCol" type="CollisionShape2D" parent="SpawnZone"]
+position = Vector2( 917.142, 820.894 )
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="LEFTUP" type="Node2D" parent="SpawnZone"]
+position = Vector2( 62.5544, 68.9221 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="RIGHTDOWN" type="Node2D" parent="SpawnZone"]
+position = Vector2( 1772.13, 1573.5 )
+__meta__ = {
+"_edit_lock_": true
+}

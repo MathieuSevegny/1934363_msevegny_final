@@ -1,0 +1,51 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.85098, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.65098, 0.105882, 0.105882, 1 )
+
+[node name="Control" type="Control"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Panel" parent="."]
+margin_left = -511.0
+margin_top = -298.0
+margin_right = -280.0
+margin_bottom = -261.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ProgressBar" type="ProgressBar" parent="Label"]
+margin_left = 3.15909
+margin_top = 2.84091
+margin_right = 227.159
+margin_bottom = 33.8409
+custom_styles/fg = SubResource( 1 )
+custom_styles/bg = SubResource( 2 )
+value = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="Label"]
+margin_left = 799.0
+margin_right = 839.0
+margin_bottom = 40.0
+rect_scale = Vector2( 5.76, 1 )
+
+[node name="Label" type="Label" parent="Label/Panel"]
+margin_right = 199.0
+margin_bottom = 40.0
+rect_scale = Vector2( 0.2, 1 )
+text = "Ennemis restants : x"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
