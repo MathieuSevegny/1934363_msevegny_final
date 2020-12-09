@@ -34,6 +34,8 @@ offset = Vector2( -1924.68, -763.482 )
 
 [node name="Lvl" parent="LvlContainer" instance=ExtResource( 3 )]
 
+[node name="EnemiesContainer" type="Node2D" parent="."]
+
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1413.87, 1174.44 )
 
@@ -54,6 +56,9 @@ margin_left = -391.112
 margin_top = -209.207
 margin_right = 328.888
 margin_bottom = 210.793
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="FinalText" type="Label" parent="Camerafin/MenuFin/Panel"]
 margin_right = 144.0

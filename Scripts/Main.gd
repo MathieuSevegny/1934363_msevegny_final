@@ -5,6 +5,8 @@ onready var enemy = load("res://Scenes/Enemy.tscn")
 var isfinish = false
 var currentmap
 var currentspawn
+var leftup
+var rightdown
  
 # Declare member variables here. Examples:
 # var a = 2
@@ -14,6 +16,7 @@ onready var global = $"/root/Global"
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	global.currentlvl = 0
 	changer_lvl()
 	charge_enemies()
 	
@@ -73,11 +76,12 @@ func changer_lvl():
 		
 func charge_enemies():
 	var enemies = global.getenemies()
+	var enemiescontainer = $EnemiesContainer
+	leftup = $LvlContainer/Lvl/Mur/SpawnZone/LEFTUP.global_position
+	rightdown = $LvlContainer/Lvl/Mur/SpawnZone/RIGHTDOWN.global_position
 	for enemynumber in enemies:
 		var newenemy = enemy.instance()
 		newenemy.enemytype = enemynumber
-		var leftup = $LvlContainer/Lvl/Mur/SpawnZone/LEFTUP.position
-		var rightdown = $LvlContainer/Lvl/Mur/SpawnZone/RIGHTDOWN.position
 		var spawn = currentspawn
 		var x
 		var y
@@ -90,7 +94,7 @@ func charge_enemies():
 			distance = positionprobable.distance_to(spawn)
 		newenemy.position = positionprobable
 		
-		add_child(newenemy)
+		enemiescontainer.add_child(newenemy)
 	
 
 
