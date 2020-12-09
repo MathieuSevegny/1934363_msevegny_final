@@ -119,11 +119,11 @@ func tireBalle():
 
 func tireTroisBalles():
 	var b1 = balle.instance()
-	b1.creer(canon.global_position, rotation - 0.3)
+	b1.creer(canon.global_position, rotation - 0.17)
 	var b2 = balle.instance()
 	b2.creer(canon.global_position, rotation)
 	var b3 = balle.instance()
-	b3.creer(canon.global_position, rotation + 0.3)
+	b3.creer(canon.global_position, rotation + 0.17)
 	get_parent().add_child(b1)
 	get_parent().add_child(b2)
 	get_parent().add_child(b3)
